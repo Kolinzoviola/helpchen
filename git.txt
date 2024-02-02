@@ -1,0 +1,55 @@
+
+Installing Git on Mr. Chen's local machine can be done through the following step-by-step guideline in bullet points:
+
+Visit Git Website:
+
+Go to the official Git website at https://git-scm.com/.
+
+Download Git:
+
+Locate the "Download" button on the website and click on it.
+Choose Operating System:
+
+Select Mr. Chen's operating system (Windows, macOS, or Linux) from the available options.
+Download Installer:
+
+Download the installer for the chosen operating system.
+Run Installer:
+
+Locate the downloaded installer file and run it.
+Follow Installation Wizard:
+
+Follow the installation wizard instructions.
+Choose the installation directory and any additional settings as needed.
+Select Components:
+
+Choose the components to install. The default selections are usually appropriate for most users.
+Adjust System Path:
+
+Opt to adjust the system PATH environment variable to include Git. This allows using Git from the command line.
+Choose Editor:
+
+Select the default text editor for Git (e.g., Vim, Nano, Notepad++, i prefer Vim).
+Select HTTPS Transport Backend:
+
+Choose between the default OpenSSL library and Windows Secure Channel.
+Configuring Line Endings:
+
+Choose how Git should handle line endings in text files (e.g., Windows or Unix style).
+Completing Installation:
+
+Complete the installation process by clicking "Install" or a similar button.
+Verify Installation:
+
+Open a command prompt or terminal and run git --version to verify that Git has been installed successfully.
+Configure User Information:
+
+Set Mr. Chen's name and email using the following commands:
+
+git config --global user.name "Mr. Chen"
+git config --global user.email "mrchen@example.com"
+
+Installation Verification:
+
+Confirm the installation and configuration by running, 
+git config --list to display the configured settings.

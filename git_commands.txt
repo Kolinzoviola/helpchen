@@ -1,0 +1,63 @@
+These following are the Commands:
+
+git init:
+
+Initializes a new Git repository in the current directory.
+git clone <repository_url>:
+
+Clones a remote repository to the local machine.
+git add <file(s)>:
+
+Adds file changes to the staging area for the next commit.
+git commit -m "Commit message":
+
+Commits the staged changes with a descriptive message.
+git status:
+
+Displays the status of changes as untracked, modified, or staged.
+git log:
+
+Shows a log of commits, including commit messages, authors, and timestamps.
+git branch:
+
+Lists all local branches, indicating the current branch with an asterisk.
+git branch <branch_name>:
+
+Creates a new branch with the specified name.
+git checkout <branch_name>:
+
+Switches to the specified branch.
+git merge <branch_name>:
+
+Merges changes from the specified branch into the current branch.
+git pull:
+
+Fetches changes from a remote repository and merges them into the current branch.
+git push:
+
+Pushes local commits to a remote repository.
+git remote -v:
+
+Lists the remote repositories associated with the current repository.
+git fetch <remote_name>:
+
+Fetches changes from a specific remote repository.
+git remote add <remote_name> <repository_url>:
+
+Adds a new remote repository with the specified name and URL.
+git diff:
+
+Shows the differences between the working directory and the last commit.
+git reset <file(s)>:
+
+Unstages changes for the specified file(s) but keeps the modifications.
+git revert <commit_sha>:
+
+Creates a new commit that undoes the changes of a previous commit.
+git branch -d <branch_name>:
+
+Deletes a local branch after it has been merged.
+git stash:
+
+Temporarily saves changes that are not ready to be committed, 
+allowing a clean working directory for other tasks.
